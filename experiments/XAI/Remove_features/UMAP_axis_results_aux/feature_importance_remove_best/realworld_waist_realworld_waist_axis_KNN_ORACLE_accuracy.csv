@@ -1,0 +1,25 @@
+Classifier,Train,Test,Reduce,XAI,Accuracy,F1-Score,Dimension,Feature Removed
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.7142857142857143,0.7081149506528762,24,21
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.7023809523809523,0.6952492443085987,23,9
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.6904761904761905,0.6824956829614507,22,11
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.7023809523809523,0.6982182388006212,21,8
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.6904761904761905,0.6873634535399241,20,13
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.6607142857142857,0.6512455424111298,19,15
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.6488095238095238,0.64495443699868,18,1
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.6607142857142857,0.6564301047751343,17,19
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.6488095238095238,0.6462726815667993,16,5
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.6488095238095238,0.6458207509707194,15,6
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.6785714285714286,0.6735645072823084,14,7
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.6845238095238095,0.6770284781402536,13,22
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.6904761904761905,0.6838311992286888,12,20
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.7083333333333334,0.7074074074074074,11,18
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.7142857142857143,0.7120825869226722,10,16
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.7023809523809523,0.6973771127997962,9,23
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.6607142857142857,0.655273833140575,8,12
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.5952380952380952,0.5991584353039462,7,10
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.5952380952380952,0.6002764125448724,6,2
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.5714285714285714,0.5768892766102697,5,14
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.5952380952380952,0.5961219218863981,4,17
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.5952380952380952,0.5984850035494543,3,4
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.5535714285714286,0.5609304256293712,2,3
+KNN,realworld_waist,realworld_waist,axis,ORACLE,0.43452380952380953,0.43021809539666683,1,0

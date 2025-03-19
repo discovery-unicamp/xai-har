@@ -1,0 +1,25 @@
+Classifier,Train,Test,Reduce,XAI,Accuracy,F1-Score,Dimension,Feature Removed
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9166666666666666,0.9164835164835164,24,9
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9047619047619048,0.9045027343877918,23,19
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9166666666666666,0.9164835164835164,22,7
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9166666666666666,0.9164835164835164,21,18
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9107142857142856,0.9105140473561524,20,17
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9226190476190476,0.9224226066331328,19,5
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9166666666666666,0.9164835164835164,18,13
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9166666666666666,0.9164835164835164,17,11
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9226190476190476,0.9224535122553496,16,6
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9166666666666666,0.9161569424727318,15,3
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9226190476190476,0.9224226066331328,14,8
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9226190476190476,0.9224226066331328,13,21
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9226190476190476,0.9224226066331328,12,20
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9107142857142856,0.910096336412126,11,2
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9166666666666666,0.9159927008427236,10,10
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9107142857142856,0.910096336412126,9,22
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9107142857142856,0.9098881949547976,8,4
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9166666666666666,0.9160193932123756,7,16
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9166666666666666,0.9160193932123756,6,15
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9107142857142856,0.9101302391940242,5,0
+Random Forest,kuhar,kuhar,axis,Random Forest,0.9107142857142856,0.9105943624651652,4,12
+Random Forest,kuhar,kuhar,axis,Random Forest,0.8928571428571429,0.8922681567035496,3,1
+Random Forest,kuhar,kuhar,axis,Random Forest,0.7619047619047619,0.7607217545096382,2,23
+Random Forest,kuhar,kuhar,axis,Random Forest,0.44642857142857145,0.43682330551895765,1,14

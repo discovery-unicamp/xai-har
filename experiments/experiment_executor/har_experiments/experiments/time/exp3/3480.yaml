@@ -1,0 +1,52 @@
+estimators:
+- algorithm: RandomForest
+  kwargs:
+    n_estimators: 100
+    random_state: 42
+  name: random_forest-100
+  num_runs: 1
+- algorithm: KNN
+  kwargs:
+    n_neighbors: 5
+  name: knn-5
+  num_runs: 1
+- algorithm: SVM
+  kwargs:
+    C: 1.0
+    kernel: rbf
+  name: svm-rbf-C1.0
+  num_runs: 1
+- algorithm: DecisionTree
+  kwargs:
+    random_state: 42
+  name: decision_tree
+  num_runs: 1
+extra:
+  in_use_features:
+  - accel-x
+  - accel-y
+  - accel-z
+  - gyro-x
+  - gyro-y
+  - gyro-z
+  reduce_on: sensor
+  scale_on: train
+reducer:
+  algorithm: lle
+  kwargs:
+    eigen_solver: dense
+    n_components: 6
+    random_state: 42
+  name: lle-6
+reducer_dataset:
+- motionsense.standartized_inter_balanced[train]
+- wisdm.standartized_inter_balanced[train]
+- uci.standartized_inter_balanced[train]
+scaler: null
+test_dataset:
+- kuhar.standartized_inter_balanced[test]
+train_dataset:
+- kuhar.standartized_inter_balanced[train]
+transforms: null
+validation_dataset: null
+version: '1.0'

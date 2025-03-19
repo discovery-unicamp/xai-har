@@ -1,0 +1,25 @@
+Classifier,Train,Test,Reduce,XAI,Accuracy,F1-Score,Dimension,Feature Removed
+Random Forest,wisdm,wisdm,axis,Random Forest,0.8357142857142857,0.8354537416606382,24,22
+Random Forest,wisdm,wisdm,axis,Random Forest,0.8357142857142857,0.8363233618233619,23,14
+Random Forest,wisdm,wisdm,axis,Random Forest,0.8285714285714286,0.8305415906368943,22,11
+Random Forest,wisdm,wisdm,axis,Random Forest,0.8357142857142857,0.8376738491932137,21,23
+Random Forest,wisdm,wisdm,axis,Random Forest,0.8357142857142857,0.837804089323454,20,7
+Random Forest,wisdm,wisdm,axis,Random Forest,0.8214285714285714,0.8233055313148989,19,15
+Random Forest,wisdm,wisdm,axis,Random Forest,0.8071428571428572,0.8092208755020319,18,10
+Random Forest,wisdm,wisdm,axis,Random Forest,0.8357142857142857,0.8380885780885781,17,17
+Random Forest,wisdm,wisdm,axis,Random Forest,0.8071428571428572,0.8099374542072862,16,18
+Random Forest,wisdm,wisdm,axis,Random Forest,0.7928571428571428,0.7945744527424017,15,19
+Random Forest,wisdm,wisdm,axis,Random Forest,0.8,0.8023772583954756,14,4
+Random Forest,wisdm,wisdm,axis,Random Forest,0.7857142857142857,0.7886098451415879,13,9
+Random Forest,wisdm,wisdm,axis,Random Forest,0.7571428571428571,0.7594321263086967,12,16
+Random Forest,wisdm,wisdm,axis,Random Forest,0.7857142857142857,0.787775396446204,11,6
+Random Forest,wisdm,wisdm,axis,Random Forest,0.7857142857142857,0.789017437483468,10,2
+Random Forest,wisdm,wisdm,axis,Random Forest,0.7642857142857142,0.7677173014390135,9,12
+Random Forest,wisdm,wisdm,axis,Random Forest,0.7642857142857142,0.7658235184556221,8,21
+Random Forest,wisdm,wisdm,axis,Random Forest,0.8,0.7994199220520256,7,20
+Random Forest,wisdm,wisdm,axis,Random Forest,0.75,0.7499177174721969,6,13
+Random Forest,wisdm,wisdm,axis,Random Forest,0.8,0.8003022265091231,5,1
+Random Forest,wisdm,wisdm,axis,Random Forest,0.7642857142857142,0.7664434937530828,4,0
+Random Forest,wisdm,wisdm,axis,Random Forest,0.7714285714285715,0.7736041647858928,3,5
+Random Forest,wisdm,wisdm,axis,Random Forest,0.6571428571428571,0.6551482098429274,2,3
+Random Forest,wisdm,wisdm,axis,Random Forest,0.4857142857142857,0.48605584579355077,1,8

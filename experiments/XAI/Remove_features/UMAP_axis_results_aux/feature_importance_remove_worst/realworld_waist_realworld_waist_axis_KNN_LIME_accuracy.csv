@@ -1,0 +1,25 @@
+Classifier,Train,Test,Reduce,XAI,Accuracy,F1-Score,Dimension,Feature Removed
+KNN,realworld_waist,realworld_waist,axis,LIME,0.7142857142857143,0.7081149506528762,24,19
+KNN,realworld_waist,realworld_waist,axis,LIME,0.7142857142857143,0.7081149506528762,23,9
+KNN,realworld_waist,realworld_waist,axis,LIME,0.7142857142857143,0.7064507868885433,22,17
+KNN,realworld_waist,realworld_waist,axis,LIME,0.7142857142857143,0.7041248614103335,21,18
+KNN,realworld_waist,realworld_waist,axis,LIME,0.7202380952380952,0.7100522705127997,20,22
+KNN,realworld_waist,realworld_waist,axis,LIME,0.7202380952380952,0.7118242226011016,19,14
+KNN,realworld_waist,realworld_waist,axis,LIME,0.7321428571428571,0.7252969843061002,18,7
+KNN,realworld_waist,realworld_waist,axis,LIME,0.7261904761904762,0.7193516682322652,17,11
+KNN,realworld_waist,realworld_waist,axis,LIME,0.7142857142857143,0.7084827036798725,16,21
+KNN,realworld_waist,realworld_waist,axis,LIME,0.7380952380952381,0.7340270291510561,15,10
+KNN,realworld_waist,realworld_waist,axis,LIME,0.7261904761904762,0.7188004585515554,14,15
+KNN,realworld_waist,realworld_waist,axis,LIME,0.7023809523809523,0.6950994539229832,13,23
+KNN,realworld_waist,realworld_waist,axis,LIME,0.6726190476190477,0.6646655518394649,12,13
+KNN,realworld_waist,realworld_waist,axis,LIME,0.6547619047619048,0.6466059612250699,11,2
+KNN,realworld_waist,realworld_waist,axis,LIME,0.6369047619047619,0.6280804947004318,10,5
+KNN,realworld_waist,realworld_waist,axis,LIME,0.6428571428571429,0.6342026247118565,9,3
+KNN,realworld_waist,realworld_waist,axis,LIME,0.6547619047619048,0.6469548425430779,8,6
+KNN,realworld_waist,realworld_waist,axis,LIME,0.6369047619047619,0.6204154182166781,7,12
+KNN,realworld_waist,realworld_waist,axis,LIME,0.6785714285714286,0.6694457201173619,6,16
+KNN,realworld_waist,realworld_waist,axis,LIME,0.6547619047619048,0.6528149199477551,5,1
+KNN,realworld_waist,realworld_waist,axis,LIME,0.5476190476190477,0.5479303141683295,4,20
+KNN,realworld_waist,realworld_waist,axis,LIME,0.5476190476190477,0.5459109259350079,3,8
+KNN,realworld_waist,realworld_waist,axis,LIME,0.5416666666666666,0.5434900450526197,2,4
+KNN,realworld_waist,realworld_waist,axis,LIME,0.43452380952380953,0.43021809539666683,1,0

@@ -1,0 +1,25 @@
+Classifier,Train,Test,Reduce,XAI,Accuracy,F1-Score,Dimension,Feature Removed
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.75,0.7537792397660819,24,4
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.7380952380952381,0.7428954302546292,23,8
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.7380952380952381,0.7433781549510451,22,0
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.7678571428571429,0.7717193821973233,21,6
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.7142857142857143,0.7203264864949648,20,16
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.7202380952380952,0.7251793278457996,19,5
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.7202380952380952,0.7255768639459164,18,13
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.7202380952380952,0.7237338899023681,17,12
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.7023809523809523,0.701605592619671,16,10
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.6904761904761905,0.6898104257612131,15,3
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.6964285714285714,0.6966014977093117,14,20
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.6904761904761905,0.6935265394922189,13,23
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.6904761904761905,0.6953263630150422,12,1
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.6785714285714286,0.6822060981071364,11,11
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.6666666666666666,0.6708323568714896,10,15
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.6726190476190477,0.6765869648018171,9,2
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.6488095238095238,0.6512938189891124,8,9
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.5119047619047619,0.5154170112394795,7,21
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.6071428571428571,0.6154283418722439,6,17
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.5714285714285714,0.5818704905712052,5,18
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.5476190476190477,0.5536420141435753,4,14
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.5714285714285714,0.5635747519346721,3,19
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.4226190476190476,0.3869721857102514,2,22
+SVM,realworld_thigh,realworld_thigh,axis,SHAP,0.40476190476190477,0.34817026906701276,1,7

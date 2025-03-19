@@ -1,0 +1,25 @@
+Classifier,Train,Test,Reduce,XAI,Accuracy,F1-Score,Dimension,Feature Removed
+Random Forest,motionsense,motionsense,axis,Random Forest,0.8214285714285714,0.8240506917157998,24,13
+Random Forest,motionsense,motionsense,axis,Random Forest,0.8452380952380952,0.8459538999012683,23,8
+Random Forest,motionsense,motionsense,axis,Random Forest,0.8511904761904762,0.8535946274603261,22,17
+Random Forest,motionsense,motionsense,axis,Random Forest,0.8333333333333334,0.8342927793885266,21,5
+Random Forest,motionsense,motionsense,axis,Random Forest,0.8511904761904762,0.8535595259167897,20,18
+Random Forest,motionsense,motionsense,axis,Random Forest,0.8392857142857143,0.8415913488154408,19,4
+Random Forest,motionsense,motionsense,axis,Random Forest,0.8392857142857143,0.8418397083911958,18,0
+Random Forest,motionsense,motionsense,axis,Random Forest,0.8452380952380952,0.847503682418742,17,10
+Random Forest,motionsense,motionsense,axis,Random Forest,0.8273809523809523,0.831443333167471,16,12
+Random Forest,motionsense,motionsense,axis,Random Forest,0.8333333333333334,0.8366194298463495,15,20
+Random Forest,motionsense,motionsense,axis,Random Forest,0.8392857142857143,0.8418632115347413,14,16
+Random Forest,motionsense,motionsense,axis,Random Forest,0.8452380952380952,0.8473569164972311,13,9
+Random Forest,motionsense,motionsense,axis,Random Forest,0.8095238095238095,0.81007238219751,12,1
+Random Forest,motionsense,motionsense,axis,Random Forest,0.8095238095238095,0.8129608571630208,11,3
+Random Forest,motionsense,motionsense,axis,Random Forest,0.8154761904761905,0.8195067076263111,10,6
+Random Forest,motionsense,motionsense,axis,Random Forest,0.7678571428571429,0.7761225574875352,9,2
+Random Forest,motionsense,motionsense,axis,Random Forest,0.7440476190476191,0.7473945296340702,8,19
+Random Forest,motionsense,motionsense,axis,Random Forest,0.7440476190476191,0.7464542831935274,7,23
+Random Forest,motionsense,motionsense,axis,Random Forest,0.7440476190476191,0.7480599752001363,6,21
+Random Forest,motionsense,motionsense,axis,Random Forest,0.7678571428571429,0.7622364101160936,5,11
+Random Forest,motionsense,motionsense,axis,Random Forest,0.6904761904761905,0.6838478332815909,4,7
+Random Forest,motionsense,motionsense,axis,Random Forest,0.5535714285714286,0.5593864137323634,3,22
+Random Forest,motionsense,motionsense,axis,Random Forest,0.5833333333333334,0.5749327188923083,2,15
+Random Forest,motionsense,motionsense,axis,Random Forest,0.39880952380952384,0.39884941182440253,1,14

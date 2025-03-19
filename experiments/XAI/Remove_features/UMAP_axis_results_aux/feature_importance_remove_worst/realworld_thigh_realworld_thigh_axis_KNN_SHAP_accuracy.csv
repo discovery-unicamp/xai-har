@@ -1,0 +1,25 @@
+Classifier,Train,Test,Reduce,XAI,Accuracy,F1-Score,Dimension,Feature Removed
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.6845238095238095,0.6840966169766004,24,14
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.6785714285714286,0.6770889402337815,23,7
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.6726190476190477,0.6698335237642729,22,22
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.6785714285714286,0.6757859047166539,21,19
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.6785714285714286,0.6753915074472566,20,17
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.6726190476190477,0.6693838275265332,19,2
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.6666666666666666,0.6622712943270436,18,9
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.6428571428571429,0.6335250705749456,17,15
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.6428571428571429,0.6354983112125968,16,10
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.6428571428571429,0.6341250094619367,15,21
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.6309523809523809,0.6230047834114399,14,1
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.6190476190476191,0.6120494052263775,13,3
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.6428571428571429,0.6386057888532072,12,11
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.6130952380952381,0.6033327836117944,11,18
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.6071428571428571,0.6004358036816227,10,6
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.625,0.6100909264818549,9,13
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.6011904761904762,0.5949260441561673,8,23
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.5714285714285714,0.5566656540340751,7,5
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.5416666666666666,0.5309581602022132,6,16
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.5595238095238095,0.5432704227414721,5,0
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.5238095238095238,0.4942811619065982,4,20
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.5892857142857143,0.5806411583585497,3,12
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.5714285714285714,0.5672351707978788,2,8
+KNN,realworld_thigh,realworld_thigh,axis,SHAP,0.35119047619047616,0.3450020417392023,1,4

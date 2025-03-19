@@ -1,0 +1,25 @@
+Classifier,Train,Test,Reduce,XAI,Accuracy,F1-Score,Dimension,Feature Removed
+Random Forest,uci,uci,axis,Random Forest,0.9071428571428573,0.9071155160628844,24,9
+Random Forest,uci,uci,axis,Random Forest,0.9071428571428573,0.906899591636434,23,11
+Random Forest,uci,uci,axis,Random Forest,0.9071428571428573,0.9068984713129702,22,19
+Random Forest,uci,uci,axis,Random Forest,0.9142857142857144,0.9140572948783272,21,16
+Random Forest,uci,uci,axis,Random Forest,0.9142857142857144,0.9140572948783272,20,20
+Random Forest,uci,uci,axis,Random Forest,0.9214285714285714,0.92105999263894,19,7
+Random Forest,uci,uci,axis,Random Forest,0.9,0.899767023745951,18,10
+Random Forest,uci,uci,axis,Random Forest,0.9071428571428573,0.9071177944862155,17,17
+Random Forest,uci,uci,axis,Random Forest,0.9142857142857144,0.9140572948783272,16,6
+Random Forest,uci,uci,axis,Random Forest,0.9142857142857144,0.9134379763523256,15,21
+Random Forest,uci,uci,axis,Random Forest,0.9071428571428573,0.9069167161588012,14,3
+Random Forest,uci,uci,axis,Random Forest,0.9,0.8998722860791826,13,5
+Random Forest,uci,uci,axis,Random Forest,0.8857142857142857,0.8856048166392995,12,14
+Random Forest,uci,uci,axis,Random Forest,0.8928571428571429,0.8928503075871497,11,15
+Random Forest,uci,uci,axis,Random Forest,0.9,0.8992364513457748,10,4
+Random Forest,uci,uci,axis,Random Forest,0.9071428571428573,0.906758311930726,9,1
+Random Forest,uci,uci,axis,Random Forest,0.9214285714285714,0.921243546987071,8,8
+Random Forest,uci,uci,axis,Random Forest,0.8857142857142857,0.8852014652014653,7,18
+Random Forest,uci,uci,axis,Random Forest,0.8357142857142857,0.8356998464230866,6,12
+Random Forest,uci,uci,axis,Random Forest,0.8142857142857143,0.8134450455205172,5,13
+Random Forest,uci,uci,axis,Random Forest,0.8142857142857143,0.8143077077135281,4,23
+Random Forest,uci,uci,axis,Random Forest,0.7285714285714285,0.7285190248348142,3,22
+Random Forest,uci,uci,axis,Random Forest,0.6857142857142857,0.6826190476190476,2,2
+Random Forest,uci,uci,axis,Random Forest,0.5285714285714286,0.5264079152607637,1,0

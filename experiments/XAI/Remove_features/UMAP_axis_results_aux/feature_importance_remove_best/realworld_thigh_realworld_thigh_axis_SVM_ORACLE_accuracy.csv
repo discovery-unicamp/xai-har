@@ -1,0 +1,25 @@
+Classifier,Train,Test,Reduce,XAI,Accuracy,F1-Score,Dimension,Feature Removed
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.75,0.7537792397660819,24,23
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.7321428571428571,0.7359398866216599,23,18
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.7321428571428571,0.7359398866216599,22,9
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.7321428571428571,0.7359398866216599,21,4
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.7142857142857143,0.7193437810600282,20,11
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.7202380952380952,0.7252066153671571,19,1
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.7142857142857143,0.7186230198077213,18,5
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.7261904761904762,0.7307723288320304,17,10
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.7083333333333334,0.7132886687013115,16,13
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.6904761904761905,0.6940252663706823,15,6
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.6071428571428571,0.613562091503268,14,7
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.6130952380952381,0.6201321215472159,13,22
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.625,0.6295635864408656,12,12
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.6011904761904762,0.607480447281277,11,19
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.5892857142857143,0.594586024434493,10,16
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.5773809523809523,0.583366247557977,9,21
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.5654761904761905,0.5706261883062897,8,20
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.5297619047619048,0.5353862341210851,7,3
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.5178571428571429,0.5197224522871812,6,17
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.5357142857142857,0.5427045907821347,5,14
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.5416666666666666,0.5480217672893597,4,2
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.5357142857142857,0.5437032638548845,3,15
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.5416666666666666,0.5475138027178611,2,0
+SVM,realworld_thigh,realworld_thigh,axis,ORACLE,0.44047619047619047,0.41213993526151027,1,8

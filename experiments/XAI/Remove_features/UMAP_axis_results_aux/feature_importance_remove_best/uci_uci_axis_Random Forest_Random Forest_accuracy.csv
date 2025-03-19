@@ -1,0 +1,25 @@
+Classifier,Train,Test,Reduce,XAI,Accuracy,F1-Score,Dimension,Feature Removed
+Random Forest,uci,uci,axis,Random Forest,0.9071428571428573,0.9071155160628844,24,0
+Random Forest,uci,uci,axis,Random Forest,0.8857142857142857,0.8855536151156465,23,2
+Random Forest,uci,uci,axis,Random Forest,0.8642857142857143,0.8638838475499092,22,22
+Random Forest,uci,uci,axis,Random Forest,0.8785714285714286,0.8787561816418442,21,23
+Random Forest,uci,uci,axis,Random Forest,0.8571428571428571,0.8583304019344065,20,13
+Random Forest,uci,uci,axis,Random Forest,0.8357142857142857,0.8363878347907386,19,12
+Random Forest,uci,uci,axis,Random Forest,0.8214285714285714,0.8230566946957868,18,18
+Random Forest,uci,uci,axis,Random Forest,0.8,0.8004790319183119,17,8
+Random Forest,uci,uci,axis,Random Forest,0.7785714285714286,0.7778935786168188,16,1
+Random Forest,uci,uci,axis,Random Forest,0.7714285714285715,0.7709085933223865,15,4
+Random Forest,uci,uci,axis,Random Forest,0.7714285714285715,0.7696657654252794,14,15
+Random Forest,uci,uci,axis,Random Forest,0.7357142857142858,0.7339087827215758,13,14
+Random Forest,uci,uci,axis,Random Forest,0.7,0.6970527556734453,12,5
+Random Forest,uci,uci,axis,Random Forest,0.6928571428571428,0.6896823529748113,11,3
+Random Forest,uci,uci,axis,Random Forest,0.6714285714285714,0.6709206846941014,10,21
+Random Forest,uci,uci,axis,Random Forest,0.65,0.6508047245367361,9,6
+Random Forest,uci,uci,axis,Random Forest,0.6285714285714286,0.6273474428598014,8,17
+Random Forest,uci,uci,axis,Random Forest,0.6214285714285714,0.6181345148422346,7,10
+Random Forest,uci,uci,axis,Random Forest,0.6071428571428571,0.5994332990694863,6,7
+Random Forest,uci,uci,axis,Random Forest,0.6,0.5931189505313494,5,20
+Random Forest,uci,uci,axis,Random Forest,0.5428571428571428,0.5477761194530886,4,16
+Random Forest,uci,uci,axis,Random Forest,0.5357142857142857,0.5349668355786263,3,19
+Random Forest,uci,uci,axis,Random Forest,0.5428571428571428,0.5409961685823755,2,11
+Random Forest,uci,uci,axis,Random Forest,0.29285714285714287,0.2894473667121241,1,9

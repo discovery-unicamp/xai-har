@@ -1,0 +1,25 @@
+Classifier,Train,Test,Reduce,XAI,Accuracy,F1-Score,Dimension,Feature Removed
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.6845238095238095,0.6840966169766004,24,14
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.6785714285714286,0.6770889402337815,23,7
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.6726190476190477,0.6698335237642729,22,17
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.6666666666666666,0.6632573453130944,21,19
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.6726190476190477,0.6710083495868043,20,9
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.6488095238095238,0.6423357120545036,19,18
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.6071428571428571,0.6001495986837139,18,22
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.6309523809523809,0.6247435429021105,17,11
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.625,0.6163913190319116,16,2
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.6011904761904762,0.5922683980311827,15,10
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.6011904761904762,0.5920885810171043,14,15
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.625,0.6189978504952687,13,16
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.6130952380952381,0.6066099285350243,12,21
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.6309523809523809,0.6251277183108418,11,13
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.6190476190476191,0.6147049212023394,10,3
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.6190476190476191,0.6130348684338963,9,23
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.6071428571428571,0.5988931751562415,8,1
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.6130952380952381,0.6034984768318101,7,5
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.6071428571428571,0.5937374649578873,6,12
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.625,0.6263472374334637,5,20
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.5654761904761905,0.5569806763285023,4,6
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.5238095238095238,0.5190091451600404,3,8
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.5,0.5017331247546084,2,0
+KNN,realworld_thigh,realworld_thigh,axis,LIME,0.35119047619047616,0.3450020417392023,1,4

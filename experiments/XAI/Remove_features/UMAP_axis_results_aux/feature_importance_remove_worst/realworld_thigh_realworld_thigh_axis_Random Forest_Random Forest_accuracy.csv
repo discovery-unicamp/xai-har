@@ -1,0 +1,25 @@
+Classifier,Train,Test,Reduce,XAI,Accuracy,F1-Score,Dimension,Feature Removed
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.7440476190476191,0.7470179037048338,24,22
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.7619047619047619,0.7660200086323837,23,19
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.7559523809523809,0.7596530920060331,22,18
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.7559523809523809,0.7597307004562831,21,14
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.7619047619047619,0.7655675644714717,20,17
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.7559523809523809,0.7550273264041379,19,16
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.7440476190476191,0.747459248789036,18,2
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.7440476190476191,0.7458333333333332,17,15
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.75,0.7527866415012214,16,20
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.7261904761904762,0.727448546240296,15,6
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.75,0.751011618507686,14,9
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.7440476190476191,0.7465407022347722,13,3
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.7559523809523809,0.7563484150501418,12,11
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.7142857142857143,0.7161531386298182,11,23
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.7202380952380952,0.7212011065207412,10,21
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.7380952380952381,0.7381882894905886,9,4
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.7261904761904762,0.7277632850409131,8,10
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.7380952380952381,0.7381693206851159,7,7
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.7023809523809523,0.7010284517333704,6,1
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.7083333333333334,0.7071361094438743,5,8
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.6666666666666666,0.6685871676214887,4,0
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.6845238095238095,0.6840703479300482,3,12
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.5952380952380952,0.5954410573379753,2,5
+Random Forest,realworld_thigh,realworld_thigh,axis,Random Forest,0.375,0.379447338602416,1,13
