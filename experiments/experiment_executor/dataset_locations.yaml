@@ -12,30 +12,30 @@
 
 # KuHar
 kuhar.raw_balanced: "views/raw_balanced/KuHar"
-kuhar.standartized_balanced: "views/standartized_balanced/KuHar"
-kuhar.standartized_inter_balanced: "views/standartized_inter_balanced/KuHar"
+kuhar.standardized_balanced: "views/standardized_balanced/KuHar"
+kuhar.standardized_inter_balanced: "views/standardized_inter_balanced/KuHar"
 
 # MotionSense
 motionsense.raw_balanced: "views/raw_balanced/MotionSense"
-motionsense.standartized_balanced: "views/standartized_balanced/MotionSense"
-motionsense.standartized_inter_balanced: "views/standartized_inter_balanced/MotionSense"
+motionsense.standardized_balanced: "views/standardized_balanced/MotionSense"
+motionsense.standardized_inter_balanced: "views/standardized_inter_balanced/MotionSense"
 
 # UCI
 uci.raw_balanced: "views/raw_balanced/UCI"
-uci.standartized_balanced: "views/standartized_balanced/UCI"
-uci.standartized_inter_balanced: "views/standartized_inter_balanced/UCI"
+uci.standardized_balanced: "views/standardized_balanced/UCI"
+uci.standardized_inter_balanced: "views/standardized_inter_balanced/UCI"
 
 # RealWorld (thigh)
 realworld_thigh.raw_balanced: "views/raw_balanced/RealWorld_thigh"
-realworld_thigh.standartized_balanced: "views/standartized_balanced/RealWorld_thigh"
-realworld_thigh.standartized_inter_balanced: "views/standartized_inter_balanced/RealWorld_thigh"
+realworld_thigh.standardized_balanced: "views/standardized_balanced/RealWorld_thigh"
+realworld_thigh.standardized_inter_balanced: "views/standardized_inter_balanced/RealWorld_thigh"
 
 # RealWorld (waist)
 realworld_waist.raw_balanced: "views/raw_balanced/RealWorld_waist"
-realworld_waist.standartized_balanced: "views/standartized_balanced/RealWorld_waist"
-realworld_waist.standartized_inter_balanced: "views/standartized_inter_balanced/RealWorld_waist"
+realworld_waist.standardized_balanced: "views/standardized_balanced/RealWorld_waist"
+realworld_waist.standardized_inter_balanced: "views/standardized_inter_balanced/RealWorld_waist"
 
 # WISDM
 wisdm.raw_balanced: "views/raw_balanced/WISDM"
-wisdm.standartized_balanced: "views/standartized_balanced/WISDM"
-wisdm.standartized_inter_balanced: "views/standartized_inter_balanced/WISDM"
+wisdm.standardized_balanced: "views/standardized_balanced/WISDM"
+wisdm.standardized_inter_balanced: "views/standardized_inter_balanced/WISDM"

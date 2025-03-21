@@ -119,17 +119,17 @@ reducer_dataset:                  # List of datasets to be used to fit the
                                   # If multiple datasets are defined, they
                                   # will be concatenated, before applying
                                   # the reducer algorithm.
-- motionsense.standartized_inter_balanced[train]
-- motionsense.standartized_inter_balanced[validation]
+- motionsense.standardized_inter_balanced[train]
+- motionsense.standardized_inter_balanced[validation]
 test_dataset:                     # List of datasets that will be used to
                                   # test the estimators. Follows the same
                                   # format as the reducer_dataset.
-- motionsense.standartized_inter_balanced[test]
+- motionsense.standardized_inter_balanced[test]
 train_dataset:                    # List of datasets that will be used to
                                   # train the estimators. Follows the same
                                   # format as the reducer_dataset.
-- motionsense.standartized_inter_balanced[train]
-- motionsense.standartized_inter_balanced[validation]
+- motionsense.standardized_inter_balanced[train]
+- motionsense.standardized_inter_balanced[validation]
 
 reducer:                          # Information about the reducer algorithm
                                   # (it can be null).
@@ -181,7 +181,7 @@ More examples can be found in the `examples` directory and the respective result
 python execute.py examples/experiment_configurations/ -o examples/results/ -d data/processed/ --ray --skip-existing
 ```
 
-The `-d` option is used to specify the path to the datasets and should point to the dataset root directory (where have `raw_balanced`, `standartized_balanced` datasets). The `--ray` option is used to execute the experiments in parallel using Ray.
+The `-d` option is used to specify the path to the datasets and should point to the dataset root directory (where have `raw_balanced`, `standardized_balanced` datasets). The `--ray` option is used to execute the experiments in parallel using Ray.
 
 ## How to alter the execution flow and add new options
 

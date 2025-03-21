@@ -15,8 +15,8 @@ sub_pathes = ["time", "frequency"]
 for sub_path in sub_pathes:
     if not os.path.exists(base_path + sub_path):
         os.mkdir(base_path + sub_path)
-
-standartized_views = ["standartized_balanced", "standartized_inter_balanced"]
+views = ["raw_unbalanced", "raw_balanced", "standardized_balanced", "standardized_inter_balanced"]
+standardized_views = ["standardized_balanced", "standardized_inter_balanced"]
 config_base = {
     "estimators": [
         {
@@ -201,7 +201,7 @@ experiments = list(
 
 invalid_combinations = [experiment 
                         for experiment in experiments 
-                        if (experiment[2] not in standartized_views and experiment[4] != None) # We only can apply reducer in standartized_{version}
+                        if (experiment[2] not in standardized_views and experiment[4] != None) # We only can apply reducer in standardized_{version}
                         or (experiment[3] != 'all' and experiment[4] == None) # If it is not all, it should use reducer
 
                         or (experiment[4] == None and experiment[5] != None) # If it doesn't apply reducer, it don't need define dimension
@@ -247,7 +247,7 @@ for args in tqdm.tqdm(experiments):
     config["extra"]["scale_on"] = "train"
 
     if reducer is not None:
-        config["reducer_dataset"] = [dataset+".standartized_inter_balanced[train]" for dataset in datasets_reducer if dataset is not None]
+        config["reducer_dataset"] = [dataset+".standardized_inter_balanced[train]" for dataset in datasets_reducer if dataset is not None]
         
         config["extra"]["reduce_on"] = reduce_on
         dim = int(dimension if reduce_on == 'all' else dimension // 2 if reduce_on == 'sensor' else dimension // 6)
