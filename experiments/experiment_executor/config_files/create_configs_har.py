@@ -16,7 +16,6 @@ for sub_path in sub_pathes:
     if not os.path.exists(base_path + sub_path):
         os.mkdir(base_path + sub_path)
 
-views = ["raw_unbalanced", "raw_balanced", "standartized_balanced", "standartized_inter_balanced"]
 standartized_views = ["standartized_balanced", "standartized_inter_balanced"]
 config_base = {
     "estimators": [
@@ -184,46 +183,35 @@ reducer = [
     },
 ]
 
-# reduce_on = ["all", "sensor", "axis"]
 reduce_on = ["all", "sensor", "axis"]
 dimensions = [12, 18, 24, None]
 cont = 0
 
 experiments = list(
     product(
-        transforms,  # 0 - transform
-        datasets,    # 1 - dataset
-        views,       # 2 - view
-        reduce_on,   # 3 - reduce_on
-        reducer,     # 4 - reducer
-        dimensions,  # 5 - dimensions
+        transforms,       # 0 - transform
+        datasets,         # 1 - dataset
+        views,            # 2 - view
+        reduce_on,        # 3 - reduce_on
+        reducer,          # 4 - reducer
+        dimensions,       # 5 - dimensions
         datasets_reducer, # 6 - datasets_reducer
     )
 )
 
 invalid_combinations = [experiment 
                         for experiment in experiments 
-                        if (experiment[2] not in standartized_views and experiment[4] != None) # Só pode ter reducer em standartized_{version}
-                        or (experiment[3] != 'all' and experiment[4] == None) # Se não for all, tem que ter reducer
+                        if (experiment[2] not in standartized_views and experiment[4] != None) # We only can apply reducer in standartized_{version}
+                        or (experiment[3] != 'all' and experiment[4] == None) # If it is not all, it should use reducer
 
-                        or (experiment[4] == None and experiment[5] != None) # Se não tiver reducer, não pode ter dimension
-                        or (experiment[4] == None and experiment[6] != None) # Se não tiver reducer, não pode ter datasets_reducer
-                        or (experiment[4] != None and experiment[5] == None) # Se tiver reducer, tem que ter dimension
-                        or (experiment[4] != None and experiment[6] == None) # Se tiver reducer, tem que ter datasets_reducer
+                        or (experiment[4] == None and experiment[5] != None) # If it doesn't apply reducer, it don't need define dimension
+                        or (experiment[4] == None and experiment[6] != None) # If it doesn't apply reducer, it don't need datasets_reducer
+                        or (experiment[4] != None and experiment[5] == None) # If it apply reducer, it should define dimension 
+                        # Se tiver reducer, tem que ter dimension
+                        or (experiment[4] != None and experiment[6] == None) # If it apply reducer, it should define dataset_reducer
                     ]
 
 experiments = [e for e in experiments if e not in invalid_combinations]
-
-# cont_umap = 0
-# cont_pca = 0
-# cont = 0
-# for e in experiments:
-#     if e[4] != None:
-#         cont_umap += 1 if e[4]['name'] == 'umap' else 0
-#         cont_pca += 1 if e[4]['name'] == 'pca' else 0
-#         cont += 1
-        
-# print(f"Total of experiments with reducer: UMAP  - {cont_umap}, PCA - {cont_pca}, Total - {cont}")
 
 cont = 0
 for args in tqdm.tqdm(experiments):
@@ -263,8 +251,6 @@ for args in tqdm.tqdm(experiments):
         
         config["extra"]["reduce_on"] = reduce_on
         dim = int(dimension if reduce_on == 'all' else dimension // 2 if reduce_on == 'sensor' else dimension // 6)
-        # dim = 24 if reduce_on == 'all' else 12 if reduce_on == 'sensor' else 4
-        # print(reducer)
         config['reducer'] = reducer
         config['reducer']['kwargs']['n_components'] = dim
         config['reducer']['name'] = f"{reducer['algorithm']}-{dim}"
